@@ -11,7 +11,7 @@ jobs:
         run: |
           yarn install
           yarn build
-          cd docs/.vuepress/dis
+          cd docs/.vuepress/dist
           git init
           git config --global user.name 'xdushepherd91'
           git config --global user.email 'xdushepherd91@gmail.com'
