@@ -27,17 +27,20 @@ module.exports = {
                 text: '沟通',
                 link: '/project-management',
             },
-            // NavbarGroup
+            {
+                text: '优质资源备份',
+                link: '/excellent-resources',
+            },
             {
                 text: '生产力工具',
                 children: [
                     {
-                        text: 'idea',
-                        link: '/'
+                        text: '生产力工具介绍',
+                        link: '/productive-tools'
                     },
                     {
-                        text: '',
-                        link: '/'
+                        text: 'idea快捷键',
+                        link: '/productive-tools/idea-guide'
                     }
                 ],
             },
