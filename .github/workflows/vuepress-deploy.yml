@@ -15,7 +15,7 @@ jobs:
           git config --global user.name 'xdushepherd91'
           git config --global user.email 'xdushepherd91@gmail.com'
           git init
-          git add -A
+          git add -A 
           git commit -m "deploy"
           git remote add origin https://xdushepherd91:${{ secrets.ACCESS_TOKEN }}@github.com/xdushepherd91/vue-blog.git
           git push -f origin master:gh-pages
