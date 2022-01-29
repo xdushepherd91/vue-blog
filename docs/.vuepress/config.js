@@ -1,10 +1,11 @@
 module.exports = {
+    base: '/vue-blog/',
     title: '王千一的个人博客',
     description: 'Just playing around',
     // Public 文件路径
     logo: 'https://vuejs.org/images/logo.png',
     head: [
-        ['link', {rel: 'icon', href: '/logo.png'}]
+        ['link', {rel: 'icon', href: '/vue-blog/logo.png'}]
     ],
     plugins: ['@vuepress/plugin-search'],
     themeConfig: {
