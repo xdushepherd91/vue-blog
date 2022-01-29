@@ -9,6 +9,7 @@ jobs:
 
       - name: deploy
         run: |
+          yarn install
           yarn build
           cd doc/.vuepress/dis
           git init
