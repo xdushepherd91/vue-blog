@@ -11,13 +11,12 @@ jobs:
         uses: actions/checkout@master
 
       - name: deploy
-        run: |
-        yarn build
-        cd doc/.vuepress/dis
-        git init
-        git config --global user.name 'xdushepherd91'
-        git config --global user.email 'xdushepherd91@gmail.com'
-        git add -A
-        git commit -m "deploy"
-        git remote set-url origin https://x-access-token:${{ secrets.ACCESS_TOKEN }}@github.com/vue-blog.git
-        git push -f origin master:gh-pages
+      - run: yarn build
+      - run: cd doc/.vuepress/dis
+      - run: git init
+      - run: git config --global user.name 'xdushepherd91'
+      - run: git config --global user.email 'xdushepherd91@gmail.com'
+      - run: git add -A
+      - run: git commit -m "deploy"
+      - run: git remote set-url origin https://x-access-token:${{ secrets.ACCESS_TOKEN }}@github.com/vue-blog.git
+      - run: git push -f origin master:gh-pages
