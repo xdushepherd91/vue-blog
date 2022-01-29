@@ -10,11 +10,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@master
 
-      - name: vuepress-deployjenkey2011/vuepress-deploy@v1.61
-        uses: jenkey2011/vuepress-deploy@v2.0.0
-        env:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          TARGET_REPO: username/repo
-          TARGET_BRANCH: master
-          BUILD_SCRIPT: yarn && yarn build
-          BUILD_DIR: blog/.vuepress/dist/
+      - name: deploy
+        run: |
+        yarn build
+        cd doc/.vuepress/dis
+        git init
+        git config --global user.name 'xdushepherd91'
+        git config --global user.email 'xdushepherd91@gmail.com'
+        git add -A
+        git commit -m "deploy"
+        git remote set-url origin https://x-access-token:${{ secrets.ACCESS_TOKEN }}@github.com/vue-blog.git
+        git push -f origin master:gh-pages
