@@ -4,23 +4,42 @@ module.exports = {
     // Public 文件路径
     logo: 'https://vuejs.org/images/logo.png',
     head: [
-        ['link', { rel: 'icon', href: '/logo.png' }]
+        ['link', {rel: 'icon', href: '/logo.png'}]
     ],
     plugins: ['@vuepress/plugin-search'],
     themeConfig: {
         navbar: [
             // NavbarItem
             {
-                text: '概述',
+                text: '思考沉淀',
                 link: '/',
+            },
+            {
+                text: '项目管理',
+                link: '/project-management',
+            },
+            {
+                text: '架构',
+                link: '/project-management',
+            },
+            {
+                text: '沟通',
+                link: '/project-management',
             },
             // NavbarGroup
             {
-                text: 'Group',
-                children: ['/group/foo.md', '/group/bar.md'],
+                text: '生产力工具',
+                children: [
+                    {
+                        text: 'idea',
+                        link: '/'
+                    },
+                    {
+                        text: '',
+                        link: '/'
+                    }
+                ],
             },
-            // 字符串 - 页面文件路径
-            '/bar/README.md',
         ],
     },
 }
