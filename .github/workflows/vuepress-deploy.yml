@@ -17,5 +17,5 @@ jobs:
           git init
           git add -A
           git commit -m "deploy"
-          git remote set-url origin https://x-access-token:${{ secrets.ACCESS_TOKEN }}@github.com/vue-blog.git
+          git remote add origin https://x-access-token:${{ secrets.ACCESS_TOKEN }}@github.com/vue-blog.git
           git push -f origin master:gh-pages
