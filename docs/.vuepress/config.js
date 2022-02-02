@@ -1,7 +1,7 @@
 module.exports = {
     base: '/vue-blog/',
     title: '王千一的个人博客',
-    description: 'Just playing around',
+    description: '工作学习生活沉淀',
     // Public 文件路径
     logo: 'https://vuejs.org/images/logo.png',
     head: [
@@ -13,6 +13,10 @@ module.exports = {
             // NavbarItem
             {
                 text: '思考沉淀',
+                link: '/',
+            },
+            {
+                text: '读书笔记',
                 link: '/',
             },
             {
