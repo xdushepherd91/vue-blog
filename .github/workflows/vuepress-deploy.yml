@@ -11,11 +11,11 @@ jobs:
         run: |
           yarn install
           yarn build
-          cd doc/.vuepress/dis
-          git init
+          cd docs/.vuepress/dist
           git config --global user.name 'xdushepherd91'
           git config --global user.email 'xdushepherd91@gmail.com'
-          git add -A
+          git init
+          git add -A 
           git commit -m "deploy"
-          git remote set-url origin https://x-access-token:${{ secrets.ACCESS_TOKEN }}@github.com/vue-blog.git
+          git remote add origin https://xdushepherd91:${{ secrets.ACCESS_TOKEN }}@github.com/xdushepherd91/vue-blog.git
           git push -f origin master:gh-pages
