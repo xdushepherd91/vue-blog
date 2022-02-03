@@ -1,6 +1,6 @@
 module.exports = {
     base: '/vue-blog/',
-    title: '王千一的个人博客',
+    title: 'xdushepherd91',
     description: '工作学习生活沉淀',
     // Public 文件路径
     logo: 'https://vuejs.org/images/logo.png',
@@ -12,24 +12,24 @@ module.exports = {
         navbar: [
             // NavbarItem
             {
-                text: '思考沉淀',
-                link: '/',
+                text: '沉淀',
+                link: '/knowledge-accumulate',
             },
             {
                 text: '读书笔记',
-                link: '/',
+                link: '/reading',
             },
             {
                 text: '项目管理',
-                link: '/project-management',
+                link: '/knowledge-accumulate/project-management',
             },
             {
                 text: '架构',
-                link: '/project-management',
+                link: '/knowledge-accumulate/architect',
             },
             {
                 text: '沟通',
-                link: '/project-management',
+                link: '/knowledge-accumulate/communication',
             },
             {
                 text: '优质资源备份',
@@ -44,7 +44,11 @@ module.exports = {
                     },
                     {
                         text: 'idea快捷键',
-                        link: '/productive-tools/idea-guide'
+                        link: '/productive-tools/idea'
+                    },
+                    {
+                        text: 'live template',
+                        link: '/productive-tools/idea/live-template'
                     }
                 ],
             },

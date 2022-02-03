@@ -2,6 +2,8 @@
 title: 优质资源简介
 lang: zh-CN
 sidebar: false
+contributors: false
+lastUpdated: false
 
 ---
 
