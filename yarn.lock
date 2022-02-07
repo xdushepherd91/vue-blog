@@ -1047,6 +1047,11 @@ markdown-it-emoji@^2.0.0:
   resolved "https://registry.nlark.com/markdown-it-emoji/download/markdown-it-emoji-2.0.0.tgz#3164ad4c009efd946e98274f7562ad611089a231"
   integrity sha1-MWStTACe/ZRumCdPdWKtYRCJojE=
 
+markdown-it-plantuml@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.npmmirror.com/markdown-it-plantuml/-/markdown-it-plantuml-1.4.1.tgz#3bd5e7d92eaa5c6c68eb29802f7b46a8e05ca998"
+  integrity sha512-13KgnZaGYTHBp4iUmGofzZSBz+Zj6cyqfR0SXUIc9wgWTto5Xhn7NjaXYxY0z7uBeTUMlc9LMQq5uP4OM5xCHg==
+
 markdown-it@^12.3.2:
   version "12.3.2"
   resolved "https://registry.npmmirror.com/markdown-it/download/markdown-it-12.3.2.tgz#bf92ac92283fe983fe4de8ff8abfb5ad72cd0c90"
