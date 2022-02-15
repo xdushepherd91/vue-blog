@@ -7,7 +7,7 @@ module.exports = {
     head: [
         ['link', {rel: 'icon', href: '/vue-blog/logo.png'}]
     ],
-    plugins: ['@vuepress/plugin-search'],
+    plugins: ['@vuepress/plugin-search','autobar'],
     extendsMarkdown: md => {
         md.use(require('markdown-it-plantuml'));
         md.set({ breaks: true })
@@ -30,6 +30,9 @@ module.exports = {
             {
                 text: '架构',
                 link: '/knowledge-accumulate/architect',
+            },            {
+                text: 'Java',
+                link: '/knowledge-accumulate/java',
             },
             {
                 text: '沟通',
