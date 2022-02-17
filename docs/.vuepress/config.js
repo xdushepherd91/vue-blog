@@ -7,7 +7,7 @@ module.exports = {
     head: [
         ['link', {rel: 'icon', href: '/vue-blog/logo.png'}]
     ],
-    plugins: ['@vuepress/plugin-search','autobar'],
+    plugins: ['@vuepress/plugin-search'],
     extendsMarkdown: md => {
         md.use(require('markdown-it-plantuml'));
         md.set({ breaks: true })
