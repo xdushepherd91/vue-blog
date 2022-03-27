@@ -78,7 +78,7 @@ class ToyMybatisTest {
 
 ### toy-mybatis-v2
 
-在v1的基础上，我们增加一些最简单的jdbc操作。除此之外，本次对用户自定义的sql语句进行提取，对返回参数类型进行识别。
+在v1的基础上，我们增加一些最简单的jdbc操作。除此之外，本次对用户自定义的sql语句进行提取，对返回参数类型进行识别。[代码地址](https://github.com/xdushepherd91/toy-mapper/tree/toy-mybatis-v2)
 
 #### 数据库链接管理实现
 
