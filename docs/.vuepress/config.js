@@ -30,8 +30,13 @@ module.exports = {
             {
                 text: '架构',
                 link: '/knowledge-accumulate/architect',
-            },            {
+            },
+            {
                 text: 'Java',
+                link: '/knowledge-accumulate/java',
+            },
+            {
+                text: 'ToyMybatis',
                 link: '/knowledge-accumulate/java',
             },
             {
