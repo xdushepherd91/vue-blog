@@ -38,7 +38,8 @@ module.exports = {
             {
                 text: 'ToyMybatis',
                 children:[
-                    {text:'ToyMybatis-其一', link: '/toy-mybatis/1'}, // 可不写后缀 .md
+                    {text:'toy mybatis 1', link: '/toy-mybatis/1'}, // 可不写后缀 .md
+                    {text:'toy mybatis 2', link: '/toy-mybatis/2'}, // 可不写后缀 .md
                     {text:'其它链接', link: 'https://www.baidu.com/'}// 外部链接
                 ]
             },
