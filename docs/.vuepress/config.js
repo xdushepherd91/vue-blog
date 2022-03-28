@@ -15,38 +15,38 @@ module.exports = {
     themeConfig: {
         navbar: [
             // NavbarItem
-            {
-                text: '沉淀',
-                link: '/knowledge-accumulate',
-            },
-            {
-                text: '读书笔记',
-                link: '/reading',
-            },
-            {
-                text: '项目管理',
-                link: '/knowledge-accumulate/project-management',
-            },
-            {
-                text: '架构',
-                link: '/knowledge-accumulate/architect',
-            },
-            {
-                text: 'Java',
-                link: '/knowledge-accumulate/java',
-            },
+//            {
+//                text: '沉淀',
+//                link: '/knowledge-accumulate',
+//            },
+//            {
+//                text: '读书笔记',
+//                link: '/reading',
+//            },
+//            {
+//                text: '项目管理',
+//                link: '/knowledge-accumulate/project-management',
+//            },
+//            {
+//                text: '架构',
+//                link: '/knowledge-accumulate/architect',
+//            },
+//            {
+//                text: 'Java',
+//                link: '/knowledge-accumulate/java',
+//            },
             {
                 text: 'ToyMybatis',
                 link: '/knowledge-accumulate/java',
             },
-            {
-                text: '沟通',
-                link: '/knowledge-accumulate/communication',
-            },
-            {
-                text: '优质资源备份',
-                link: '/excellent-resources',
-            },
+//            {
+//                text: '沟通',
+//                link: '/knowledge-accumulate/communication',
+//            },
+//            {
+//                text: '优质资源备份',
+//                link: '/excellent-resources',
+//            },
             {
                 text: '生产力工具',
                 children: [
